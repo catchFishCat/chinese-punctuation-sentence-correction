@@ -20,7 +20,29 @@
 - 有 skill 组均准确率：**0.50**
 - 平均提升：**+0.20**
 
-实验明细：`experiment/results/official_media_punct_blind10/blind10_scores.json`
+实验明细：`evaluation/blind10_scores.json`
+
+#### 实验可视化
+
+**1) 各智能体准确率**
+
+![Agent Accuracy](./evaluation/figures/figure_agent_accuracy.png)
+
+**2) 组均值对比（A=无skill，B=有skill）**
+
+![Group Mean](./evaluation/figures/figure_group_mean.png)
+
+**3) 提升幅度（B-A）**
+
+![Delta](./evaluation/figures/figure_delta.png)
+
+**4) Precision-Recall（组级两个点）**
+
+![PR](./evaluation/figures/figure_precision_recall.png)
+
+**5) 10×10 格子图（左5列无skill，右5列有skill）**
+
+![10x10 Grid](./evaluation/figures/figure_10x10_grid.png)
 
 ---
 
@@ -44,4 +66,12 @@ Blind 10-item official-media benchmark (5v5 setup):
 - With-skill group mean accuracy: **0.50**
 - Mean uplift: **+0.20**
 
-Details: `experiment/results/official_media_punct_blind10/blind10_scores.json`
+Details: `evaluation/blind10_scores.json`
+
+#### Visual Results
+
+![Agent Accuracy](./evaluation/figures/figure_agent_accuracy.png)
+![Group Mean](./evaluation/figures/figure_group_mean.png)
+![Delta](./evaluation/figures/figure_delta.png)
+![PR](./evaluation/figures/figure_precision_recall.png)
+![10x10 Grid](./evaluation/figures/figure_10x10_grid.png)

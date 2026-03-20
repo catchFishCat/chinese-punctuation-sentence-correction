@@ -1,0 +1,108 @@
+{
+  "model": "deepseek-chat",
+  "runs": [
+    {
+      "agent_id": "agent_01",
+      "blind_group": "B",
+      "workspace": "experiment\\results\\official_media_punct_blind10\\agents\\agent_01",
+      "output_file": "experiment\\results\\official_media_punct_blind10\\agents\\agent_01\\output_predictions.json",
+      "hit": 5,
+      "total": 10,
+      "accuracy": 0.5
+    },
+    {
+      "agent_id": "agent_02",
+      "blind_group": "B",
+      "workspace": "experiment\\results\\official_media_punct_blind10\\agents\\agent_02",
+      "output_file": "experiment\\results\\official_media_punct_blind10\\agents\\agent_02\\output_predictions.json",
+      "hit": 5,
+      "total": 10,
+      "accuracy": 0.5
+    },
+    {
+      "agent_id": "agent_03",
+      "blind_group": "A",
+      "workspace": "experiment\\results\\official_media_punct_blind10\\agents\\agent_03",
+      "output_file": "experiment\\results\\official_media_punct_blind10\\agents\\agent_03\\output_predictions.json",
+      "hit": 3,
+      "total": 10,
+      "accuracy": 0.3
+    },
+    {
+      "agent_id": "agent_04",
+      "blind_group": "A",
+      "workspace": "experiment\\results\\official_media_punct_blind10\\agents\\agent_04",
+      "output_file": "experiment\\results\\official_media_punct_blind10\\agents\\agent_04\\output_predictions.json",
+      "hit": 3,
+      "total": 10,
+      "accuracy": 0.3
+    },
+    {
+      "agent_id": "agent_05",
+      "blind_group": "B",
+      "workspace": "experiment\\results\\official_media_punct_blind10\\agents\\agent_05",
+      "output_file": "experiment\\results\\official_media_punct_blind10\\agents\\agent_05\\output_predictions.json",
+      "hit": 4,
+      "total": 10,
+      "accuracy": 0.4
+    },
+    {
+      "agent_id": "agent_06",
+      "blind_group": "A",
+      "workspace": "experiment\\results\\official_media_punct_blind10\\agents\\agent_06",
+      "output_file": "experiment\\results\\official_media_punct_blind10\\agents\\agent_06\\output_predictions.json",
+      "hit": 3,
+      "total": 10,
+      "accuracy": 0.3
+    },
+    {
+      "agent_id": "agent_07",
+      "blind_group": "A",
+      "workspace": "experiment\\results\\official_media_punct_blind10\\agents\\agent_07",
+      "output_file": "experiment\\results\\official_media_punct_blind10\\agents\\agent_07\\output_predictions.json",
+      "hit": 3,
+      "total": 10,
+      "accuracy": 0.3
+    },
+    {
+      "agent_id": "agent_08",
+      "blind_group": "A",
+      "workspace": "experiment\\results\\official_media_punct_blind10\\agents\\agent_08",
+      "output_file": "experiment\\results\\official_media_punct_blind10\\agents\\agent_08\\output_predictions.json",
+      "hit": 3,
+      "total": 10,
+      "accuracy": 0.3
+    },
+    {
+      "agent_id": "agent_09",
+      "blind_group": "B",
+      "workspace": "experiment\\results\\official_media_punct_blind10\\agents\\agent_09",
+      "output_file": "experiment\\results\\official_media_punct_blind10\\agents\\agent_09\\output_predictions.json",
+      "hit": 5,
+      "total": 10,
+      "accuracy": 0.5
+    },
+    {
+      "agent_id": "agent_10",
+      "blind_group": "B",
+      "workspace": "experiment\\results\\official_media_punct_blind10\\agents\\agent_10",
+      "output_file": "experiment\\results\\official_media_punct_blind10\\agents\\agent_10\\output_predictions.json",
+      "hit": 6,
+      "total": 10,
+      "accuracy": 0.6
+    }
+  ],
+  "group_A": {
+    "n_runs": 5,
+    "mean_accuracy": 0.3,
+    "min_accuracy": 0.3,
+    "max_accuracy": 0.3
+  },
+  "group_B": {
+    "n_runs": 5,
+    "mean_accuracy": 0.5,
+    "min_accuracy": 0.4,
+    "max_accuracy": 0.6
+  },
+  "delta_B_minus_A": 0.2
+}
