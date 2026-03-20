@@ -32,15 +32,11 @@
 
 ![Group Mean](./evaluation/figures/figure_group_mean.png)
 
-**3) 提升幅度（B-A）**
-
-![Delta](./evaluation/figures/figure_delta.png)
-
-**4) Precision-Recall（组级两个点）**
+**3) Precision-Recall（组级两个点）**
 
 ![PR](./evaluation/figures/figure_precision_recall.png)
 
-**5) 10×10 格子图（左5列无skill，右5列有skill）**
+**4) 10×10 格子图（左5列无skill，右5列有skill）**
 
 ![10x10 Grid](./evaluation/figures/figure_10x10_grid.png)
 
@@ -72,6 +68,5 @@ Details: `evaluation/blind10_scores.json`
 
 ![Agent Accuracy](./evaluation/figures/figure_agent_accuracy.png)
 ![Group Mean](./evaluation/figures/figure_group_mean.png)
-![Delta](./evaluation/figures/figure_delta.png)
 ![PR](./evaluation/figures/figure_precision_recall.png)
 ![10x10 Grid](./evaluation/figures/figure_10x10_grid.png)
